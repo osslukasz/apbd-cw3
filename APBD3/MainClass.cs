@@ -8,7 +8,7 @@ public class MainClass
         
         
         var laptop = new Laptop("Dell XPS", "i7", "RTX 1050");
-        var camera = new Camera { Nazwa ="Aparat profesjonalny", Type = "Canon EOS", Resolution = "4K" };
+        var camera = new Camera ( "Aparat profesjonalny", "Canon EOS", "4K" );
         var student = new Student("Jan", "Kowalski");
         var employee = new Employee("Dr", "Nowak");
 
